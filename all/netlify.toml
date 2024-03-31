@@ -1,6 +1,7 @@
 [build]
-  command = "npm run build" 
-  publish = "public" 
+command = "npm run build"
+publish = "dist"  # Замените "dist" на папку, в которой находится собранный проект
 
 [dev]
-  port = 5500
+command = "npm run start"  # Здесь укажите команду, которая запускает ваше приложение локально
+port = 5500  # Укажите порт, на котором ваше приложение работает локально
